@@ -4,10 +4,6 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
 		<title>Document</title>
-		<script src="http://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.3.0"></script>
-		<script>
-			var vConsole = new VConsole();
-		</script>
 	</head>
 	<body>
 		<style>
@@ -70,8 +66,8 @@
 			var boardHeight = 0;
 			textarea.onfocus = function () {
 				setBoardHeight();
-      };
-      textarea.oninput = function () {
+			};
+			textarea.oninput = function () {
 				setBoardHeight();
 			};
 			function setBoardHeight() {
